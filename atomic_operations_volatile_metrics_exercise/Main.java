@@ -7,7 +7,7 @@ public class Main {
     public static void main(String []args){
         MinMaxMetrics mmm = new MinMaxMetrics();
         mmm.addSample(100);
-        //mmm.addSample(200);
+
         System.out.println("Minimum "+ mmm.getMin());
         System.out.println("Maximum " + mmm.getMax());
         System.out.println("GetClass " + mmm.getClass());;

@@ -15,8 +15,6 @@ public class MinMaxMetrics {
     public MinMaxMetrics() {
         minimum = ThreadLocalRandom.current().nextLong(0, Long.MAX_VALUE);
         maximum = ThreadLocalRandom.current().nextLong(Long.MIN_VALUE, 0);
-        System.out.println("Inside constructor minimum: " + minimum);
-        System.out.println("Inside constructor maximum: " + maximum);
     }
 
     /**
