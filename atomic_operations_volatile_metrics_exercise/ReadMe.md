@@ -1,4 +1,4 @@
-Min - Max Metrics Exercise Statement
+<h1>Min - Max Metrics Exercise Statement</h1>
 
 In this exercise, we are going to implement a class called MinMaxMetrics .
 
