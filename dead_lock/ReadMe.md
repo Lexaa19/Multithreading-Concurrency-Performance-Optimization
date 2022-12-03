@@ -8,3 +8,33 @@ The deadock appears in one of the scenarios:
 The deadlock is achieved inside the synchronized blocks that hold the locks roadA and roadB.
 A possible solution in this case is acquiring the order of the lock acquire, that is:
 
+
+
+ public void takeRoadA() {
+            synchronized (roadA) {
+                System.out.println("Road A is locked by thread " + Thread.currentThread().getName());
+                synchronized (roadB) {
+                    System.out.println("Train is passing through road A");
+                    try {
+                        Thread.sleep(1);
+                    } catch (InterruptedException e) {
+                    }
+                }
+            }
+        }
+
+
+
+  public void takeRoadB() {
+            synchronized (roadA) {
+                System.out.println("Road B is locked by thread " + Thread.currentThread().getName());
+                synchronized (roadB) {
+                    System.out.println("Train is passing through road B");
+                    try {
+                        Thread.sleep(1);
+                    } catch (InterruptedException e) {
+                    }
+                }
+            }
+        }
+               
