@@ -1,17 +1,17 @@
 <h1>Min - Max Metrics Exercise Statement</h1>
 
-In this exercise, we are going to implement a class called MinMaxMetrics .
+In this exercise, we are going to implement a class called MinMaxMetrics.
 
 A single instance of this class will be passed to multiple threads in our application.
 
 MinMaxMetrics is an analytics class and is used to keep track of the minimum and the maximum of a particular business or performance metric in our application.
 
-Example:
+<b>Example:</b>
 
 A stock trading application that keeps track of the minimum and maximum price of the stock on a daily basis.
 
 
-The class will have 3 methods:
+<b>The class will have 3 methods:</b>
 
 addSample(..) - Takes a new sample.
 
@@ -21,7 +21,7 @@ getMax() - Returns the sample with the maximum value we have seen so far.
 
 
 
-Notes:
+<b>Notes:</b>
 
 - Each method can be called concurrently by any given number of threads, so the class needs to be thread-safe.
 
