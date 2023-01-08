@@ -6,5 +6,6 @@ From my point of view, multithreading is probably one of the best things from th
 
 I have added in each folder the exercises for different sections of the course.
 
+Below is the certification from Udemy.
 
 ![Screenshot_4](https://user-images.githubusercontent.com/55296361/211201617-54bd3d90-398c-483d-b133-218680252a2a.png)
